@@ -35,7 +35,7 @@ We would also like to see a README which includes any information about how to r
 - The correct answer must be revealed after a user has submitted their answer
 - A user can see the score they received at the end of the round
 
-## Approach
+### Approach
 - Tandem Trivia was built using React and JavaScript, and some jQuery.
 - One of the main design decisions I made for this project was figuring out how to structure the application state to account for user interaction, like clicking the start button and selecting options for each question. I decided to use React Hooks for this project because it makes it easier for us to handle and change our application state, allowing us to deal with individual entities instead of one giant Object. 
 - I decided to implement some jQuery to handle the logic of rendering clicked options and showing the correct answer. Using the ```toggleClass``` allowed the game to visually show the correct and incorrect answers upon selection.
