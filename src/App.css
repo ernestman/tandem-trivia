@@ -1,0 +1,133 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+button {
+  border-width: 0;
+  border-style: none;
+  border-color: none;
+}
+
+.App {
+  text-align: center;
+}
+
+
+.App-header {
+  /* background-color: #001F19; */
+  /* background-color: #282c34; */
+  /* background-color: #151B26; */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  /* color: white; */
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.score-img-container {
+  position: relative;
+}
+
+#score-img {
+  height: 160px;
+}
+
+.score {
+  position: absolute;
+  top: 42%;
+  left: 44%;
+  font-size: 20px;
+}
+
+#final-score-img {
+  height: 300px;
+}
+
+.final-score {
+  position: absolute;
+  top: 40%;
+  left: 22%;
+  font-size: 30px;
+}
+
+.question-card {
+  /* border: 1px solid #151B26; */
+  min-width: 860px;
+  min-height: 430px;
+  display: flex;
+  flex-direction: column;
+  background-color: #151B26;
+  border-radius: 10px;
+  padding: 14px;
+  color: white;
+}
+
+#question-num {
+  text-align: start;
+  font-size: 16px;
+  color: white;
+}
+
+.btn {
+  /* border: 1px solid #ad85fb; */
+  color: white;
+  background-color: #796EFF;
+  border-radius: 4px;
+  font-size: 20px;
+  padding: 12px 20px;
+  width: fit-content;
+  transition: 0.4s ease;
+}
+
+.btn:hover,
+.btn:focus {
+  cursor: pointer;
+  background-color: #635AC7;
+  transform: translateY(-0.20em);
+}
+
+
+.option {
+  background-color: #4C6EF5;
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 3px;
+  margin: 14px;
+  transition: 0.4s ease;
+}
+
+.option:hover,
+.option:focus {
+  cursor: pointer;
+  background-color: #4261D1;
+  transform: translateY(-0.20em);
+}
+
+.clicked {
+  background-color: #4DC274;
+}
+
+.clicked:hover,
+.clicked:focus {
+  background-color: #4DC274;
+  transform: translateY(-0.20em);
+}
+
+.clicked-wrong {
+  background-color: #E44C60;
+}
+
+.clicked-wrong:hover,
+.clicked-wrong:focus {
+  background-color: #E44C60;
+  transform: translateY(-0.20em);
+}
